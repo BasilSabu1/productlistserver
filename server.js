@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://productlist-five-ruddy.vercel.app/',
+  origin: 'https://productlist-five-ruddy.vercel.app',
   credentials: true
 }));
 app.use(bodyParser.json());
